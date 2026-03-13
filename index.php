@@ -23,7 +23,7 @@ $popupPoster = $db->query("SELECT * FROM posters WHERE is_popup=1 LIMIT 1")->fet
 </head>
 <body>
 
-<!-- NAVBAR -->
+<!-- NAVBAR for main menu-->
 <nav class="navbar navbar-expand-lg" id="mainNavbar">
   <div class="container">
     <a class="navbar-brand" href="index.php">
@@ -232,6 +232,7 @@ $popupPoster = $db->query("SELECT * FROM posters WHERE is_popup=1 LIMIT 1")->fet
 </section>
 <?php endif; ?>
 
+<!---git learning -->
 <?php if (!empty($new_items)): ?>
 <section class="section section-new-arrival" style="padding-top:60px;padding-bottom:80px;">
   <div class="container">
