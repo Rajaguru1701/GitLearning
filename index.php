@@ -23,7 +23,7 @@ $popupPoster = $db->query("SELECT * FROM posters WHERE is_popup=1 LIMIT 1")->fet
 </head>
 <body>
 
-<!-- navigation -->
+<!-- Raja Storesss -->
 <nav class="navbar navbar-expand-lg" id="mainNavbar">
   <div class="container">
     <a class="navbar-brand" href="index.php">
