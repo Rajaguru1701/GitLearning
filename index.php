@@ -14,6 +14,8 @@ $popupPoster = $db->query("SELECT * FROM posters WHERE is_popup=1 LIMIT 1")->fet
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
+
+<!--  -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="MILIR BANGLES — Premium Men's Fashion. Shop Shirts, T-Shirts, Trousers, Jeans, Ethnic Wear & more. Order via WhatsApp."/>
 <title><?= htmlspecialchars($shopName) ?> | Premium Men's Fashion</title>
