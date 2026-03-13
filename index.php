@@ -235,6 +235,7 @@ $popupPoster = $db->query("SELECT * FROM posters WHERE is_popup=1 LIMIT 1")->fet
 </section>
 <?php endif; ?>
 
+<!---git learning -->
 <?php if (!empty($new_items)): ?>
 <section class="section section-new-arrival" style="padding-top:60px;padding-bottom:80px;">
   <div class="container">
